@@ -1,4 +1,4 @@
 import os
 
-def clear_console():
+def clear():
     os.system('cls')
