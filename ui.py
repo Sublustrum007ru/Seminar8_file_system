@@ -2,6 +2,7 @@ from delete_data import delete_row
 from change_data import change_row
 from add_data import add_row
 from print_data import print_file
+from clear_console import clear_console
 
 
 def check_number(n):
@@ -30,6 +31,7 @@ def start_menu():
                             "5. Выход\n"
                             "Введите номер команды: "))
         command = check_number(command)
+        clear_console()
         if command == 1:
             add_row()
         elif command == 2:
