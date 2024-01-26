@@ -1,5 +1,6 @@
 from clear_console import clear
 from num_files import num_files
+
 def print_file():
     clear()
     for i in range(1, num_files() + 1):
